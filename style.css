@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #70c5ce;
+    display: block;
+}
+
+.score-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.score, .high-score {
+    font-size: 24px;
+    margin-bottom: 10px;
+} 
